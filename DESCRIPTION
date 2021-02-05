@@ -34,8 +34,8 @@ Imports:
     data.table,
     R6
 Suggests: 
-    covr, 
-    testthat
+    covr,
+    testthat (>= 3.0.0)
 ByteCompile: true
 NeedsCompilation: no 
 URL: https://github.com/pomol-ai/rqcflow, https://github.com/pomol-ai
