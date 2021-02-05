@@ -2,11 +2,10 @@
 
 <!-- badges: start -->
 ![](https://img.shields.io/badge/lifecycle-experimental-orange)
-![](https://img.shields.io/badge/version-9000-green)
-![](https://img.shields.io/badge/%20build-failing-red)
-![](https://img.shields.io/badge/covr-0%25-red)
-<!-- Don't include R CMD check badge for now
-[![](https://github.com/jeanmathieupotvin/blueprint/workflows/R-CMD-check/badge.svg)](https://github.com/jeanmathieupotvin/blueprint/actions) -->
+![](https://img.shields.io/badge/version-9000-brightgreen)
+![](https://img.shields.io/badge/%20build-fail-red)
+[![](https://github.com/pomol-ai/rqcflow/workflows/R-CMD-check/badge.svg)](https://github.com/pomol-ai/rqcflow/actions)
+![](https://img.shields.io/badge/covr-100%25-brightgreen)
 <!-- badges: end -->
 
 Fetch water levels and river flows for the province of Quebec from
