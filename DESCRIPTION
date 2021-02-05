@@ -1,0 +1,45 @@
+Package: rqcflow
+Title: Fetch water levels and river flows for the province of Quebec
+Version: 0.0.0.9000
+Authors@R:
+    c(
+      person(given   = "Jean-Mathieu",
+             family  = "Potvin",
+             role    = c("aut", "cre"),
+             email   = "jm@potvin.xyz",
+             comment = c(ORCID = "0000-0002-8237-422X")),
+      person(given   = "Jérémie",
+             family  = "Boudreault",
+             role    = "aut",
+             email   = "tbd",
+             comment = c(ORCID = "tbd")),
+      person(given   = "Samuel",
+             family  = "Perreault",
+             role    = "aut",
+             email   = "tbd",
+             comment = c(ORCID = "tbd"))
+    )
+Description: Automated mechanisms to fetch water levels and river flows from
+    Centre d'Expertise Hydrique du Québec (CEHQ). Easy aggregations and summary
+    statistics. Quebec is a province of Canada.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE, r6 = TRUE)
+RoxygenNote: 7.1.1
+Config/testthat/edition: 3
+Depends: 
+    R (>= 4.0.0)
+Imports:
+    data.table,
+    R6
+Suggests: 
+    covr, 
+    testthat
+ByteCompile: true
+NeedsCompilation: no 
+URL: https://github.com/pomol-ai/rqcflow, https://github.com/pomol-ai
+BugReports: https://github.com/pomol-ai/rqcflow/issues/new
+Contact: tbd@pomol.ai
+Collate: 
+    'routes.R'

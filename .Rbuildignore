@@ -1,0 +1,9 @@
+^\.Rproj$
+^\.Rproj\.user$
+^\.gitignore$
+^\.dev$
+^\.git$
+^\.github$
+^\.releases$
+^man-roxygen$
+^LICENSE\.md$
